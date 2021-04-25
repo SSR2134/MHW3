@@ -1,0 +1,259 @@
+header {
+  color: white;
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+a {
+  cursor: pointer;
+}
+a.button {
+  padding: 20px 25px;
+  border: 2px solid white;
+  border-radius: 100px;
+}
+a.button:hover {
+  background-color: red;
+  color: white;
+}
+body {
+  color: rgba(26, 26, 26, .7);
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  margin: 0;
+}
+.button,
+#details h1,
+footer address,
+header h1 strong,
+#links {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#details {
+  display: flex;
+  justify-content: space-between;
+}
+#details div {
+  flex-grow: 1;
+  padding: 20px;
+}
+#Libri img {
+  justify-content: space-around;
+  width: 150px;
+  height: 150px;
+}
+#Libri h4{
+  font-size:2em;
+  font-family:initial;
+  color:rgb(230, 237, 241);
+}
+#Libri h3{
+  font-size:2.6em;
+  font-family:initial;
+  color:rgb(196, 15, 75);
+}
+
+#biscotto h2{
+  font-family:cursive;
+  font-size: 1.9em;
+  text-align: center;
+  letter-spacing: 4px;
+}
+#biscotto h3{
+  text-align: center;
+  color: rgb(100, 154, 177);
+  font-size: 1.4em;
+}
+#divisorio  {
+  text-align: center;
+  color: rgb(61, 153, 145);
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+#divisorio2  {
+  height: 50px;
+}
+
+
+header h1 {
+  font-size: 0.7em;
+  line-height: 1.5;
+}
+
+h1 a.button {
+  border: 4 px;
+  background-color: rgb(80, 59, 98, 0.8);
+  display: inline-block;
+}
+
+h1 a.button:hover {
+  background-color: rgba(54, 179, 168, 0.75);
+  color: inherit;
+}
+header h2 {
+  font-family:Glyphs;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+#logo {
+  font-size: 6.5em;
+  font-family:lobster;
+  color: rgb(255, 255, 240);
+}
+header:before {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+header h1 {
+  font-weight: normal;
+  text-align: center;
+  z-index: 1;
+}
+
+header h1 a {
+  font-size: 0.8em;
+}
+
+header h1 em {
+  font-size: 1.25em;
+  letter-spacing: 1px;
+}
+
+header h1 strong {
+  font-size: 4.25em;
+  letter-spacing: 4px;
+}
+header nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 1em;
+  padding: 4px;
+  background-color:rgb(141, 164, 144, 0.25);
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu {
+  display: none;
+}
+
+#menu div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+#links a {
+  margin: 20px;
+}
+img{
+   border-radius:11px;
+}
+
+p {
+  text-align: center;
+  color: rgb(214, 38, 38);
+  display: block;
+  font-size: 3.2em;
+  line-height: 1.8em;
+}
+
+#libreria {
+  
+  background-color:rgb(247, 255, 170)
+
+}
+#Libri{
+  margin: 100px;
+  text-align:center;
+  background-color: rgb(158, 158, 235);
+  
+}
+
+footer {
+  background-color: rgb(31, 31, 31, 0.8); 
+  color: rgba(80, 255, 0);
+  padding: 30px;
+  text-align: center;
+}
+footer p {
+  color: rgba(25, 159, 96, .8);
+  font-family: kanit;
+  font-size: 1.8em;
+}
+@media (max-width: 500px) {
+#Libri h3{
+    color: rgb(158, 158, 235);
+  }
+#Libri h4{
+   font-size: 18px;
+    
+  }
+#links {
+    display: none;
+  }
+header {
+    height: 300px;
+    line-height: 1.2;
+  }
+header nav {
+    position: absolute;
+}
+header h1 strong {
+    font-size: 2em;
+    letter-spacing: 4px;
+  }  
+header h2 {
+    font-size: 0.1em;
+    font-weight: normal;
+    line-height: 1.5;
+    color: rgba(9, 174, 48, 0.5);}  
+#menu {
+    display: block;
+  }
+#logo {
+    font-size: 2em;
+    color:rgb(0, 204,204);
+	}
+body {
+    font-size: 14px;
+   }
+section {
+    margin: 40px 10px;
+  }
+#main p {
+    width: 90%;
+    margin-bottom: 2em;
+  }
+
+a.button {
+  padding: 10px 12.5px;
+  border: 1px solid white;
+  border-radius: 100px;
+    }  
+footer {
+	 color:rgb(0, 204,204);
+	}
+}
